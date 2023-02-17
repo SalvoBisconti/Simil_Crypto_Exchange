@@ -1,2 +1,2 @@
 # Simil_Crypto_Exchange
-Realized only using HTML, CSS and JavaScript
+Realized using only HTML, CSS and JavaScript 
