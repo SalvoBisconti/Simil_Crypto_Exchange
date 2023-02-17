@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CryptoDotCom</title>
+    <link rel="icon" type="image/png" href="./img/favicon.png">
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <img class="logoNav" src="./img/logo.png" alt="logo image" />
+        <a href="./index.html" class="link-logo"> </a>
+          <div class="left-nav">
+            <a href="http://"> Explore</a>
+            <a href="./crypto.html"> All crypto</a>
+            <div class="search-area-nav ">
+              <img src="./img/search.png" alt="search" />
+              <input
+                type="search"
+                name=""
+                id=""
+                placeholder="search"
+                class="search-area"
+              />
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="top-main">
+        <div class="img-sec">
+          <div class="overlay"></div>
+          <img src="./img/bg.webp" class="bg-img" alt="bitcoin image" />
+          <a href="http://"> Learn more</a>
+        </div>
+        <div class="change-sec">
+          <div class="change-form">
+            <div class="converter">
+              <h3>Currency converter</h3>
+              <form id="converterForm">
+                <div class="firstCurrency-sec">
+                  
+                  <select name="first" id="firstCurrency">
+                    <option  value="EUR" >Euro</option>
+                    <option value="BTC">Bitcoin</option>
+                    <option value="ETH">Etherum</option>                    
+                    <option value="BNB">BNB</option>
+                    <option value="XRP">XRP</option>
+                    <option value="ADA">Cardano</option>
+                    <option value="MATIC">Polygon</option>
+                    <option value="DOGE">Dogecoin</option> 
+                    <option value="SOL">Solana</option> 
+                    <option value="LTC">Litecoin</option>
+                    <option value="LINK">Chainlink</option>
+                    <option value="VET">VeChain</option>
+                    <option value="MANA">Decentraland</option>
+                    <option value="SAND">The Sandbox</option>
+                  </select> 
+                  <input type="number" id="firstValue" step=".000000001"/>
+                </div>
+                <div class="secondCurrency-sec">
+                 
+                  <select name="second" id="secondCurrency">
+                    <option value="BTC">Bitcoin</option>
+                    <option value="ETH">Etherum</option>                    
+                    <option value="BNB">BNB</option>
+                    <option value="XRP">XRP</option>
+                    <option value="ADA">Cardano</option>
+                    <option value="MATIC">Polygon</option>
+                    <option value="DOGE">Dogecoin</option> 
+                    <option value="SOL">Solana</option> 
+                    <option value="LTC">Litecoin</option>
+                    <option value="LINK">Chainlink</option>
+                    <option value="VET">VeChain</option>
+                    <option value="MANA">Decentraland</option>
+                    <option value="SAND">The Sandbox</option>
+                  </select> 
+                  <input type="number" id="secondValue" step=".000000001"/>
+                </div>
+                <div class="btn-change">
+                <button class="form_button" type="submit" value="Invia">
+                  Convert
+                </button></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-main">
+        <h3>Crypto:</h3>
+        <div class="crypto-sec"></div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="logoFooterSec">
+      <img class="logoFooter" src="./img/logo.png" alt="logo image" />
+</div>
+<div class="textFooterSec">
+  <ul class="listFooter">
+    <li> About us</li>  
+    <li> Contact us</li>
+    <li> FAQ</li>
+    <li> Policy</li>
+    <li> Privacy</li>
+  
+  </ul>
+  <p> © 2023 CryptoDotCom by Salvo Bisconti. All rights reserved</p>
+</div>
+    </footer>
+  </body>
+</html>
